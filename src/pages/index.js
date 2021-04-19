@@ -2,8 +2,8 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Footer from "../components/footer"
 import PlusIcon from "../icons/plus.svg"
+import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +18,6 @@ const IndexPage = () => (
         <img src={PlusIcon} aria-hidden/>
       </button>
     </div>
-    <Footer />
   </Layout>
 )
 
